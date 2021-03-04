@@ -1,0 +1,71 @@
+﻿@helper ProcessToastrs()
+{
+    List<moreDevelopment.Service.Toastr> toastrs = moreDevelopment.Service.ToastrService.ReadAndRemoveUserQueue();
+
+    if (toastrs != null && toastrs.Count > 0)
+    {
+        foreach (var item in toastrs)
+        {
+            @ShowToastr(item.Message, item.Title, item.Type)
+        }
+    }
+}
+
+@helper ShowToastr(string Message, string Title, moreDevelopment.Data.Enums.ToastrType type)
+{
+
+    switch (type)
+    {
+        case moreDevelopment.Data.Enums.ToastrType.Info:
+            @ToastrInfo(Message, Title)
+            break;
+        case moreDevelopment.Data.Enums.ToastrType.Success:
+            @ToastrSuccess(Message, Title)
+            break;
+        case moreDevelopment.Data.Enums.ToastrType.Warning:
+            @ToastrWarning(Message, Title)
+            break;
+        case moreDevelopment.Data.Enums.ToastrType.Error:
+            @ToastrError(Message, Title)
+            break;
+        default:
+            @ToastrInfo(Message, Title)
+            break;
+    }
+}
+
+@helper ToastrInfo(string message, string title)
+{
+    <script>
+        window.onload = function () {
+            toastr.info('@message', '@title');
+        }
+    </script>
+}
+
+@helper ToastrWarning(string message, string title)
+{
+    <script>
+        window.onload = function () {
+            toastr.warning('@message', '@title');
+        }
+    </script>
+}
+
+@helper ToastrSuccess(string message, string title)
+{
+    <script>
+              window.onload = function () {
+                  toastr.success('@message', '@title');
+              }
+    </script>
+}
+
+@helper ToastrError(string message, string title)
+{
+    <script>
+              window.onload = function () {
+                  toastr.error('@message', '@title');
+              }
+    </script>
+}

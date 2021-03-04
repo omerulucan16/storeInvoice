@@ -1,0 +1,173 @@
+﻿@model moreDevelopment.ViewModel.createInvoiceViewModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<style>
+    .text-centered{
+        text-align:center;
+    }
+    .invoices {
+        padding-top:65px ;
+    }
+    .invoice-1 {
+        float: left;
+        width:325px;
+        height:567px;
+        margin-left: 5px;
+    }
+    .invoice-1 .person-name {
+        width: 130px;
+        height:26px;
+        font-size: 11px;
+    }
+    .invoice-1 .person-adress {
+        height:55px;
+        width: 140px;
+        font-size: 11px;
+    }
+    .invoice-1 .createDate {
+        margin-top:68px;
+        margin-left: 68px;
+        width:65px;
+        height:13px;
+        font-size: 13px;
+    }
+    .invoice-1 .sendDate {
+        width: 65px;
+        height: 13px;
+        margin-left: 68px;
+        font-size: 13px;
+    }
+    .invoice-1 .products {
+        padding-top:50px;
+        height:400px;
+        margin-left: 5px;
+        margin-right:5px;
+        font-size: 12px;
+    }
+    .invoice-1 .products .productName {
+        text-align: left;
+        width: 250px;
+    }
+    .invoice-1 .products .productCount {
+        text-align: left;
+        width: 15px;
+    }
+    .invoice-1 .products .productPrice {
+        text-align: left;
+        width: 50px;
+    }
+    .invoice-1 .productTotals {
+        padding-top: 30px;
+        margin-left: 180px;
+        font-size: 13px;
+    }
+</style>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Print</title>
+    
+    <!-- App css -->
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="invoices">
+            <div class="invoice-1">
+                <div class="person-name">
+                    @Model.buyerName @Model.buyerSurname
+                </div>
+                <div class="person-adress">
+                    @Model.buyerAdress
+                </div>
+                <div class="createDate">
+                    @(Model.createDate.Day).@(Model.createDate.Month).@(Model.createDate.Year)
+                </div>
+                <div class="sendDate">
+                    @(Model.createDate.Day).@(Model.createDate.Month).@(Model.createDate.Year)
+                </div>
+                <div class="products">
+                    <table>
+                        <tr>
+                            <th class="productName"></th>
+                            <th class="productCount"></th>
+                            <th class="productPrice"></th>
+                        </tr>
+                        @foreach (var item in Model.productList.productList)
+                        {
+                            <tr>
+                                <td>@item.Name</td>
+                                <td class="text-centered">@item.count</td>
+                                <td class="text-centered">@item.price</td>
+                            </tr>
+
+                        }
+                        
+                    </table>
+                </div>
+                <div class="productTotals">
+                    <div class="total">Toplam : @Model.price</div>
+                    <div class="tax">KDV %@Model.taxRate : @Model.taxPrice</div>
+                    <div class="total">Genel Toplam : @Model.grandTotal</div>
+                </div>
+            </div>
+            <div class="invoice-1">
+                <div class="person-name">
+                    Akif Çolak  Akif Çolak  Akif Çolak
+                </div>
+                <div class="person-adress">
+                    Kayabaşı Cd. Nova Evleri A Bl. D:1 No:58 Hatice Kız Yurdunun Önündeki Pembe Bina Osmangazi/Bursa
+                </div>
+                <div class="createDate">
+                    31.12.2021
+                </div>
+                <div class="sendDate">
+                    31.12.2021
+                </div>
+            </div>
+            <div class="invoice-1">
+                <div class="person-name">
+                    Akif Çolak  Akif Çolak  Akif Çolak
+                </div>
+                <div class="person-adress">
+                    Kayabaşı Cd. Nova Evleri A Bl. D:1 No:58 Hatice Kız Yurdunun Önündeki Pembe Bina Osmangazi/Bursa
+                </div>
+                <div class="createDate">
+                    31.12.2021
+                </div>
+                <div class="sendDate">
+                    31.12.2021
+                </div>
+            </div>
+            <div class="invoice-1">
+                <div class="person-name">
+                    Akif Çolak  Akif Çolak  Akif Çolak
+                </div>
+                <div class="person-adress">
+                    Kayabaşı Cd. Nova Evleri A Bl. D:1 No:58 Hatice Kız Yurdunun Önündeki Pembe Bina Osmangazi/Bursa
+                </div>
+                <div class="createDate">
+                    31.12.2021
+                </div>
+                <div class="sendDate">
+                    31.12.2021
+                </div>
+            </div>
+        </div>
+       
+    </div>
+    <script src="~/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="~/assets/js/waves.js"></script>
+    <script src="~/assets/js/jquery.slimscroll.js"></script>
+
+    <!-- App js -->
+    <script src="~/assets/js/jquery.core.js"></script>
+    <script src="~/assets/js/jquery.app.js"></script>
+
+</body>
+</html>

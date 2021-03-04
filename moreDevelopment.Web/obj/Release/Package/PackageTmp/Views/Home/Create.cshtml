@@ -1,0 +1,175 @@
+﻿@model moreDevelopment.ViewModel.createInvoiceViewModel
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/_LayoutPage.cshtml";
+}
+@using System.Web.Script.Serialization
+@{
+    var javaScriptSearilizer = new JavaScriptSerializer();
+    var searializedObject = javaScriptSearilizer.Serialize(Model.ownProducts.productList);
+}
+<div class="row">
+    <div class="col-sm-12">
+        <div class="page-title-box">
+
+            <h4 class="page-title">Yeni Fatura Oluştur</h4>
+        </div>
+    </div>
+</div>
+@using (Html.BeginForm("Create", "Home", FormMethod.Post, new { @class = "card-box" }))
+{
+    <div class="row">
+        <div class="col-12">
+
+            <div class="form-row">
+                <div class="form-group col-md-4">
+                    <label class="col-form-label">Müşteri Adı</label>
+                    @Html.TextBoxFor(m => m.buyerName, new { @class = "form-control" })
+
+                </div>
+                <div class="form-group col-md-4">
+                    <label class="col-form-label">Müşteri Soyadı</label>
+                    @Html.TextBoxFor(m => m.buyerSurname, new { @class = "form-control" })
+                </div>
+                <div class="form-group col-md-4">
+                    <label class="col-form-label">Fatura Numarası</label>
+                    @Html.TextBoxFor(m => m.invoiceNo, new { @class = "form-control" })
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-12">
+                    <label class="col-form-label">Müşteri Adress</label>
+                    @Html.TextAreaFor(m => m.buyerAdress, new { @class = "form-control" })
+
+                </div>
+
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-3">
+                    <label class="col-form-label">KDV Oranı</label>
+                    @Html.TextBoxFor(m => m.taxRate, new { @class = "form-control" ,@onChange= "calculatePrices()" })
+                </div>
+                <div class="form-group col-md-3">
+                    <label class="col-form-label">Toplam Fiyat</label>
+                    @Html.TextBoxFor(m => m.price, new { @class = "form-control", @readonly = "true" })
+                </div>
+                <div class="form-group col-md-3">
+                    <label class="col-form-label">Toplam KDV</label>
+                    @Html.TextBoxFor(m => m.taxPrice, new { @class = "form-control", @readonly = "true" })
+                </div>
+                <div class="form-group col-md-3">
+                    <label class="col-form-label">Genel Toplam</label>
+                    @Html.TextBoxFor(m => m.grandTotal, new { @class = "form-control", @readonly = "true" })
+                </div>
+
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-md-12">
+                    <label class="col-form-label">Ürün Arama</label>
+                </div>
+                <div class="form-group col-md-10 col-sm-10 col-xs-12 col-12">
+
+
+
+                    <input type="text" id="autocomplete-ajax"
+                           class="form-control">
+
+                    <input type="text" id="autocomplete-ajax-x"
+                           disabled="disabled" class="form-control"
+                           style="color: #CCC; position: absolute; background: transparent; z-index: 1;display: none;" />
+                </div>
+                <div class="form-group col-md-1 col-sm-1 col-xs-6 col-6">
+                    <button type="button" class="btn btn-success" style="width:100%;" onclick="addItem();">+</button>
+                </div>
+                <div class="form-group col-md-1 col-sm-1 col-xs-6 col-6">
+                    <button type="button" class="btn btn-danger" style="width:100%;" onclick="deleteItem();">Undo</button>
+                </div>
+            </div>
+                <div class="form-row" id="selectedProducts">
+
+                </div>
+            </div>
+        <button class="btn btn-success" type="submit">Kaydet</button>
+
+    </div>
+}
+
+<script>
+    var ownedProducts = @Html.Raw(searializedObject),
+        selectedProducts = [],
+        counter = 0,
+        productSearchBox = document.getElementById("autocomplete-ajax");
+    productSearchBox.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+
+        }
+    });
+    function addItem() {
+        var productName = "",
+            productPrice = 0,
+            productCount = 1;
+            productCode = 0;
+        var id = "";
+        debugger;
+        productName = document.getElementById("autocomplete-ajax").value;
+        filterResult = ownedProducts.filter(f => f.Name === productName);
+        if (filterResult.length === 1) {
+            productName = filterResult[0].Name;
+            productPrice = filterResult[0].price.toString().replace(".",",");
+            productCode = filterResult[0].id;
+        }
+
+        if (productName.length>2) {
+            input = jQuery('<div class="form-group col-md-8"  id="product_' + counter + '_name" > <label class="col-form-label">Ürün Adı</label>' +
+                '<input  name="productList.productList[' + counter + '].id" value="' + productCode + '" type="hidden" class="form-control" >' +
+                '<input id="productList_productList[' + counter + ']_name" name = "productList.productList[' + counter + '].Name"  value="' + productName + '" class= "form-control" >' +
+                '</div > ' + '<div class="form-group col-md-2" id="product_' + counter + '_price"> <label class="col-form-label">Ürün Fiyatı</label>' +
+                '<input id="productList_productList[' + counter + ']_Price" onChange="calculatePrices()" name="productList.productList[' + counter + '].Price" value="' + productPrice + '" class="form-control" >' +
+                '</div > ' + '<div class="form-group col-md-2" id="product_' + counter + '_count"> <label class="col-form-label">Ürün Adedi</label>' +
+                '<input id="productList_productList[' + counter + ']_Count" onChange="calculatePrices()" name="productList.productList[' + counter + '].Count" value="' + productCount + '" class="form-control" >' +
+                '</div > '
+            );
+            jQuery('#selectedProducts').append(input);
+            if (productCode !== 0) {
+                var productNameText = "productList_productList[" + counter + "]_name";
+                document.getElementById(productNameText).readOnly = true;
+            }
+            counter = counter + 1;
+            //  this.results = {};
+            document.getElementById("autocomplete-ajax").value = "";
+            calculatePrices();
+        }
+    }
+    function deleteItem() {
+        debugger;
+        item = counter-1;
+        jQuery('#product_'+item+'_name').remove();
+        jQuery('#product_' + item +'_price').remove();
+        jQuery('#product_' + item +'_count').remove();
+        counter = item;
+        calculatePrices();
+    }
+    function calculatePrices() {
+        totalItem = counter;
+        totalPrice = 0;
+        totalKDV = 0;
+        grandTotal = 0;
+        taxRate = Number($('#taxRate').val());
+        for (var i = 0; i < totalItem; i++) {
+            debugger;
+            var itemText = "productList_productList[" + i + "]";
+            var itemPrice = document.getElementById(itemText + "_Price").value.replace(",", ".");
+            itemPrice = Number(itemPrice);
+            var itemCount = Number(document.getElementById(itemText +"_Count").value);
+            document.getElementById(itemText + "_Price").value = document.getElementById(itemText + "_Price").value.replace(".", ",");
+            totalPrice = totalPrice + (itemPrice * itemCount);
+        }
+        totalKDV = (totalPrice * taxRate) / 100;
+        $('#price').val(totalPrice.toString().replace(".", ","));
+        $('#taxPrice').val(totalKDV.toString().replace(".", ","));
+
+        $('#grandTotal').val((totalPrice + totalKDV).toString().replace(".", ","));
+    }
+</script>
+

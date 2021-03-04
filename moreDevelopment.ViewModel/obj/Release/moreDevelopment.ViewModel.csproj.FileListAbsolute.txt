@@ -1,0 +1,14 @@
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.ViewModel\obj\Release\moreDevelopment.ViewModel.csprojAssemblyReference.cache
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.ViewModel\obj\Release\moreDevelopment.ViewModel.csproj.CoreCompileInputs.cache
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.ViewModel\bin\Release\moreDevelopment.ViewModel.dll
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.ViewModel\bin\Release\moreDevelopment.ViewModel.pdb
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.ViewModel\bin\Release\moreDevelopment.Data.dll
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.ViewModel\bin\Release\MySql.Data.Entity.EF6.dll
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.ViewModel\bin\Release\EntityFramework.dll
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.ViewModel\bin\Release\MySql.Data.dll
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.ViewModel\bin\Release\moreDevelopment.Data.pdb
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.ViewModel\bin\Release\moreDevelopment.Data.dll.config
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.ViewModel\bin\Release\EntityFramework.xml
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.ViewModel\obj\Release\moreDevelopment.ViewModel.csproj.CopyComplete
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.ViewModel\obj\Release\moreDevelopment.ViewModel.dll
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.ViewModel\obj\Release\moreDevelopment.ViewModel.pdb

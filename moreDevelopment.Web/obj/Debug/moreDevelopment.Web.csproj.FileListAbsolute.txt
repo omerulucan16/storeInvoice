@@ -1,0 +1,176 @@
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\moreDevelopment.Web.dll.config
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\moreDevelopment.Web.dll
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\moreDevelopment.Web.pdb
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\csc.exe
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\csc.exe.config
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\csc.rsp
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\csi.exe
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\csi.exe.config
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\csi.rsp
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\System.AppContext.dll
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\System.Console.dll
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\System.IO.Compression.dll
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\System.Net.Http.dll
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\System.ValueTuple.dll
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\vbc.exe
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\vbc.exe.config
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\vbc.rsp
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\VBCSCompiler.exe
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\AutoMapper.dll
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\moreDevelopment.Data.dll
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\moreDevelopment.Service.dll
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\moreDevelopment.ViewModel.dll
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\System.ValueTuple.dll
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\System.Web.Helpers.dll
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\System.Web.Mvc.dll
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\System.Web.Razor.dll
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\System.Web.Webpages.dll
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\System.Web.Webpages.Razor.dll
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\moreDevelopment.Data.pdb
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\moreDevelopment.Data.dll.config
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\moreDevelopment.Service.pdb
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\moreDevelopment.Service.dll.config
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\moreDevelopment.ViewModel.pdb
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\AutoMapper.pdb
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\AutoMapper.xml
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\System.ValueTuple.xml
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\System.Web.Razor.xml
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\System.Web.Webpages.xml
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\System.Web.Webpages.Razor.xml
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\System.Web.Helpers.xml
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\System.Web.Mvc.xml
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\obj\Debug\moreDevelopment.Web.csprojAssemblyReference.cache
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\obj\Debug\moreDevelopment.Web.csproj.CopyComplete
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\obj\Debug\moreDevelopment.Web.dll
+C:\Users\Omer\source\repos\moreDevelopment.Web\moreDevelopment.Web\obj\Debug\moreDevelopment.Web.pdb
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\moreDevelopment.Web.dll.config
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\moreDevelopment.Web.dll
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\moreDevelopment.Web.pdb
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\csc.exe
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\csc.exe.config
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\csc.rsp
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\csi.exe
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\csi.exe.config
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\csi.rsp
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\Microsoft.Managed.Core.targets
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\System.AppContext.dll
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\System.Collections.Immutable.dll
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\System.Console.dll
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\System.Globalization.Calendars.dll
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\System.IO.Compression.dll
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\System.IO.FileSystem.dll
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\System.Net.Http.dll
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\System.Net.Sockets.dll
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\System.Reflection.Metadata.dll
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\System.ValueTuple.dll
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\System.Xml.XmlDocument.dll
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\System.Xml.XPath.dll
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\vbc.exe
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\vbc.exe.config
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\vbc.rsp
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\VBCSCompiler.exe
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\roslyn\VBCSCompiler.exe.config
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\AutoMapper.dll
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\moreDevelopment.Data.dll
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\moreDevelopment.Service.dll
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\moreDevelopment.ViewModel.dll
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\System.ValueTuple.dll
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\System.Web.Helpers.dll
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\System.Web.Mvc.dll
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\System.Web.Razor.dll
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\System.Web.Webpages.Deployment.dll
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\System.Web.Webpages.dll
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\System.Web.Webpages.Razor.dll
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\MySql.Data.Entity.EF6.dll
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\EntityFramework.dll
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\MySql.Data.dll
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\moreDevelopment.Data.pdb
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\moreDevelopment.Data.dll.config
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\moreDevelopment.Service.pdb
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\moreDevelopment.Service.dll.config
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\moreDevelopment.ViewModel.pdb
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\AutoMapper.pdb
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\AutoMapper.xml
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\System.ValueTuple.xml
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\System.Web.Razor.xml
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\System.Web.Webpages.xml
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\System.Web.Webpages.Deployment.xml
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\System.Web.Webpages.Razor.xml
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\System.Web.Helpers.xml
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\System.Web.Mvc.xml
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\EntityFramework.xml
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\obj\Debug\moreDevelopment.Web.csprojAssemblyReference.cache
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\obj\Debug\moreDevelopment.Web.csproj.CoreCompileInputs.cache
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\obj\Debug\moreDevelopment.Web.csproj.CopyComplete
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\obj\Debug\moreDevelopment.Web.dll
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\obj\Debug\moreDevelopment.Web.pdb
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\EntityFramework.SqlServer.dll
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\EntityFramework.SqlServer.xml
+D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Web\bin\Rotativa.dll
