@@ -59,6 +59,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Enums\PriceTextType.cs" />
     <Compile Include="Enums\GeneralStatus.cs" />
     <Compile Include="Enums\ToastrType.cs" />
     <Compile Include="invoiceProducts.cs" />

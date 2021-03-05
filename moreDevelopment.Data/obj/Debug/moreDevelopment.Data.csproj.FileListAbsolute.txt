@@ -30,3 +30,22 @@ D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Data\bin\Debug\MySql.D
 D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Data\bin\Debug\MySql.Data.Entity.EF6.dll
 D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Data\obj\Debug\moreDevelopment.Data.csprojAssemblyReference.cache
 D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Data\obj\Debug\moreDevelopment.Data.Migrations.mgTaxRate.resources
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Data\bin\Debug\moreDevelopment.Data.dll.config
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Data\bin\Debug\moreDevelopment.Data.dll
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Data\bin\Debug\moreDevelopment.Data.pdb
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Data\bin\Debug\EntityFramework.dll
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Data\bin\Debug\MySql.Data.dll
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Data\bin\Debug\MySql.Data.Entity.EF6.dll
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Data\bin\Debug\EntityFramework.xml
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Data\obj\Debug\moreDevelopment.Data.csprojAssemblyReference.cache
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Data\obj\Debug\moreDevelopment.Data.Migrations.mgInvoiceFirst.resources
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Data\obj\Debug\moreDevelopment.Data.Migrations.mgInvoiceProducts.resources
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Data\obj\Debug\moreDevelopment.Data.Migrations.mgProductPrices.resources
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Data\obj\Debug\moreDevelopment.Data.Migrations.mgTaxRate.resources
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Data\obj\Debug\moreDevelopment.Data.csproj.GenerateResource.cache
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Data\obj\Debug\moreDevelopment.Data.csproj.CoreCompileInputs.cache
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Data\obj\Debug\moreDevelopment.Data.csproj.CopyComplete
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Data\obj\Debug\moreDevelopment.Data.dll
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Data\obj\Debug\moreDevelopment.Data.pdb

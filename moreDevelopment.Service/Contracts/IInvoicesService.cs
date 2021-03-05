@@ -11,5 +11,6 @@ namespace moreDevelopment.Service.Contracts
     {
         createInvoiceViewModel addNewInvoice(createInvoiceViewModel model);
         invoiceListViewModel getInvoicesList();
+        
     }
 }

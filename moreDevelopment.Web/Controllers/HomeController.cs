@@ -17,6 +17,7 @@ namespace moreDevelopment.Web.Controllers
         [Route("")]
         public ActionResult Index()
         {
+            
             // ToastrService.AddToUserQueue("Sistemde böyle bir kayıt bulunamadı veya aktif edilmiş kayıt.", "Lol Tahmin", Data.Enums.ToastrType.Error);
             return View(_InvoicesService.getInvoicesList());
         }
@@ -44,6 +45,7 @@ namespace moreDevelopment.Web.Controllers
                 model.ownProducts = _productService.getProductsList();
                 return View(model);
             }
+             
             return new Rotativa.ViewAsPdf("Print",model) {
                 PageOrientation = Rotativa.Options.Orientation.Landscape,
                 PageSize = Rotativa.Options.Size.A4,

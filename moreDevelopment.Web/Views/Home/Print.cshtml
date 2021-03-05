@@ -13,7 +13,7 @@
     }
     .invoice-1 {
         float: left;
-        width:325px;
+        width:340px;
         height:567px;
         margin-left: 5px;
     }
@@ -43,13 +43,13 @@
     .invoice-1 .products {
         padding-top:50px;
         height:400px;
-        margin-left: 5px;
         margin-right:5px;
         font-size: 12px;
     }
+    
     .invoice-1 .products .productName {
         text-align: left;
-        width: 250px;
+        width: 255px;
     }
     .invoice-1 .products .productCount {
         text-align: left;
@@ -64,6 +64,12 @@
         margin-left: 180px;
         font-size: 13px;
     }
+        .invoice-1 .productTotalText
+        {
+            margin-left:30px;
+            padding-top:30px;
+            font-size:14px;
+        }
 </style>
 <html>
 <head>
@@ -78,86 +84,56 @@
     <div class="container">
 
         <div class="invoices">
-            <div class="invoice-1">
-                <div class="person-name">
-                    @Model.buyerName @Model.buyerSurname
-                </div>
-                <div class="person-adress">
-                    @Model.buyerAdress
-                </div>
-                <div class="createDate">
-                    @(Model.createDate.Day).@(Model.createDate.Month).@(Model.createDate.Year)
-                </div>
-                <div class="sendDate">
-                    @(Model.createDate.Day).@(Model.createDate.Month).@(Model.createDate.Year)
-                </div>
-                <div class="products">
-                    <table>
-                        <tr>
-                            <th class="productName"></th>
-                            <th class="productCount"></th>
-                            <th class="productPrice"></th>
-                        </tr>
-                        @foreach (var item in Model.productList.productList)
-                        {
+            @for (int i = 0; i < 4; i++)
+            {
+                <div class="invoice-1">
+                    <div class="person-name">
+                        @Model.buyerName @Model.buyerSurname
+                    </div>
+                    <div class="person-adress">
+                        @Model.buyerAdress
+                    </div>
+                    <div class="createDate">
+                        @(Model.createDate.Day).@(Model.createDate.Month).@(Model.createDate.Year)
+                    </div>
+                    <div class="sendDate">
+                        @(Model.createDate.Day).@(Model.createDate.Month).@(Model.createDate.Year)
+                    </div>
+                    <div class="products">
+                        <table>
                             <tr>
-                                <td>@item.Name</td>
-                                <td class="text-centered">@item.count</td>
-                                <td class="text-centered">@item.price</td>
+                                <th class="productName"></th>
+                                <th class="productCount"></th>
+                                <th class="productPrice"></th>
                             </tr>
+                            @foreach (var item in Model.productList.productList)
+                            {
+                                <tr>
+                                    <td>@item.Name</td>
+                                    <td class="text-centered">@item.count</td>
+                                    <td class="text-centered">@item.price.ToString("#.##")</td>
+                                </tr>
 
+                            }
+
+                        </table>
+                    </div>
+                    <div class="productTotals">
+                        <div class="total">Toplam : @Model.price</div>
+                        <div class="tax">KDV %@Model.taxRate : @Model.taxPrice.ToString("#.##")</div>
+                        @if (Model.taxRate2 != 0)
+                        {
+                            <div class="tax">KDV %@Model.taxRate2 : @Model.taxPrice2.ToString("#.##")</div>
                         }
-                        
-                    </table>
+                        <div class="total">Genel Toplam : @Model.grandTotal.ToString("#.##")</div>
+                    </div>
+                    <div class="productTotalText">
+                        <div>@Model.totalPriceText</div>
+                    </div>
                 </div>
-                <div class="productTotals">
-                    <div class="total">Toplam : @Model.price</div>
-                    <div class="tax">KDV %@Model.taxRate : @Model.taxPrice</div>
-                    <div class="total">Genel Toplam : @Model.grandTotal</div>
-                </div>
-            </div>
-            <div class="invoice-1">
-                <div class="person-name">
-                    Akif Çolak  Akif Çolak  Akif Çolak
-                </div>
-                <div class="person-adress">
-                    Kayabaşı Cd. Nova Evleri A Bl. D:1 No:58 Hatice Kız Yurdunun Önündeki Pembe Bina Osmangazi/Bursa
-                </div>
-                <div class="createDate">
-                    31.12.2021
-                </div>
-                <div class="sendDate">
-                    31.12.2021
-                </div>
-            </div>
-            <div class="invoice-1">
-                <div class="person-name">
-                    Akif Çolak  Akif Çolak  Akif Çolak
-                </div>
-                <div class="person-adress">
-                    Kayabaşı Cd. Nova Evleri A Bl. D:1 No:58 Hatice Kız Yurdunun Önündeki Pembe Bina Osmangazi/Bursa
-                </div>
-                <div class="createDate">
-                    31.12.2021
-                </div>
-                <div class="sendDate">
-                    31.12.2021
-                </div>
-            </div>
-            <div class="invoice-1">
-                <div class="person-name">
-                    Akif Çolak  Akif Çolak  Akif Çolak
-                </div>
-                <div class="person-adress">
-                    Kayabaşı Cd. Nova Evleri A Bl. D:1 No:58 Hatice Kız Yurdunun Önündeki Pembe Bina Osmangazi/Bursa
-                </div>
-                <div class="createDate">
-                    31.12.2021
-                </div>
-                <div class="sendDate">
-                    31.12.2021
-                </div>
-            </div>
+            }
+
+
         </div>
        
     </div>
