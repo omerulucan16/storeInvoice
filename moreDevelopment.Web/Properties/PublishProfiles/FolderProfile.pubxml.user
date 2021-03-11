@@ -30,6 +30,18 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="assets/css/style.css.map">
       <publishTime>02/21/2021 11:21:11</publishTime>
     </File>
+    <File Include="assets/css/toastr.css">
+      <publishTime>02/03/2021 23:06:49</publishTime>
+    </File>
+    <File Include="assets/css/toastr.less">
+      <publishTime>02/03/2021 23:06:49</publishTime>
+    </File>
+    <File Include="assets/css/toastr.min.css">
+      <publishTime>02/03/2021 23:06:49</publishTime>
+    </File>
+    <File Include="assets/css/toastr.scss">
+      <publishTime>02/03/2021 23:06:49</publishTime>
+    </File>
     <File Include="assets/fonts/dripicons-v2.eot">
       <publishTime>02/21/2021 11:21:11</publishTime>
     </File>
@@ -363,6 +375,15 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="assets/js/modernizr.min.js">
       <publishTime>02/21/2021 11:21:09</publishTime>
     </File>
+    <File Include="assets/js/toastr.config.js">
+      <publishTime>02/03/2021 23:06:25</publishTime>
+    </File>
+    <File Include="assets/js/toastr.js">
+      <publishTime>02/03/2021 23:06:25</publishTime>
+    </File>
+    <File Include="assets/js/toastr.min.js">
+      <publishTime>02/03/2021 23:06:25</publishTime>
+    </File>
     <File Include="assets/js/waves.js">
       <publishTime>02/21/2021 11:21:09</publishTime>
     </File>
@@ -370,7 +391,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/21/2021 11:21:09</publishTime>
     </File>
     <File Include="assets/pages/jquery.autocomplete.init.js">
-      <publishTime>02/22/2021 12:30:55</publishTime>
+      <publishTime>03/10/2021 10:00:02</publishTime>
     </File>
     <File Include="assets/pages/jquery.calendar.js">
       <publishTime>02/21/2021 11:21:09</publishTime>
@@ -2098,40 +2119,40 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/16/2020 20:38:56</publishTime>
     </File>
     <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
-      <publishTime>09/05/2018 16:10:50</publishTime>
+      <publishTime>05/09/2018 16:10:50</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>07/25/2012 11:48:56</publishTime>
     </File>
     <File Include="bin/moreDevelopment.Data.dll">
-      <publishTime>02/25/2021 19:22:56</publishTime>
+      <publishTime>03/11/2021 13:25:23</publishTime>
     </File>
     <File Include="bin/moreDevelopment.Data.dll.config">
       <publishTime>02/29/2020 09:10:45</publishTime>
     </File>
     <File Include="bin/moreDevelopment.Data.pdb">
-      <publishTime>02/25/2021 19:22:56</publishTime>
+      <publishTime>03/11/2021 13:25:23</publishTime>
     </File>
     <File Include="bin/moreDevelopment.Service.dll">
-      <publishTime>02/25/2021 19:22:57</publishTime>
+      <publishTime>03/11/2021 13:43:34</publishTime>
     </File>
     <File Include="bin/moreDevelopment.Service.dll.config">
       <publishTime>02/29/2020 09:12:20</publishTime>
     </File>
     <File Include="bin/moreDevelopment.Service.pdb">
-      <publishTime>02/25/2021 19:22:57</publishTime>
+      <publishTime>03/11/2021 13:43:34</publishTime>
     </File>
     <File Include="bin/moreDevelopment.ViewModel.dll">
-      <publishTime>02/25/2021 19:22:56</publishTime>
+      <publishTime>03/11/2021 13:25:23</publishTime>
     </File>
     <File Include="bin/moreDevelopment.ViewModel.pdb">
-      <publishTime>02/25/2021 19:22:56</publishTime>
+      <publishTime>03/11/2021 13:25:23</publishTime>
     </File>
     <File Include="bin/moreDevelopment.Web.dll">
-      <publishTime>02/25/2021 19:22:57</publishTime>
+      <publishTime>03/11/2021 13:43:34</publishTime>
     </File>
     <File Include="bin/moreDevelopment.Web.pdb">
-      <publishTime>02/25/2021 19:22:57</publishTime>
+      <publishTime>03/11/2021 13:43:34</publishTime>
     </File>
     <File Include="bin/MySql.Data.dll">
       <publishTime>04/26/2018 23:44:06</publishTime>
@@ -2179,10 +2200,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/08/2018 12:09:42</publishTime>
     </File>
     <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
-      <publishTime>12/05/2017 09:36:44</publishTime>
+      <publishTime>05/12/2017 09:36:44</publishTime>
     </File>
     <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
-      <publishTime>12/05/2017 09:36:44</publishTime>
+      <publishTime>05/12/2017 09:36:44</publishTime>
     </File>
     <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
       <publishTime>08/08/2018 12:09:42</publishTime>
@@ -2191,85 +2212,85 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/08/2018 12:09:42</publishTime>
     </File>
     <File Include="bin/roslyn/Microsoft.Win32.Primitives.dll">
-      <publishTime>11/05/2016 18:55:32</publishTime>
+      <publishTime>05/11/2016 18:55:32</publishTime>
     </File>
     <File Include="bin/roslyn/System.AppContext.dll">
-      <publishTime>11/05/2016 18:55:34</publishTime>
+      <publishTime>05/11/2016 18:55:34</publishTime>
     </File>
     <File Include="bin/roslyn/System.Collections.Immutable.dll">
       <publishTime>05/16/2018 03:29:34</publishTime>
     </File>
     <File Include="bin/roslyn/System.Console.dll">
-      <publishTime>11/05/2016 18:55:48</publishTime>
+      <publishTime>05/11/2016 18:55:48</publishTime>
     </File>
     <File Include="bin/roslyn/System.Diagnostics.DiagnosticSource.dll">
-      <publishTime>11/05/2016 18:55:52</publishTime>
+      <publishTime>05/11/2016 18:55:52</publishTime>
     </File>
     <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
-      <publishTime>11/05/2016 18:55:56</publishTime>
+      <publishTime>05/11/2016 18:55:56</publishTime>
     </File>
     <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
-      <publishTime>11/05/2016 18:55:52</publishTime>
+      <publishTime>05/11/2016 18:55:52</publishTime>
     </File>
     <File Include="bin/roslyn/System.Globalization.Calendars.dll">
-      <publishTime>11/05/2016 18:56:02</publishTime>
+      <publishTime>05/11/2016 18:56:02</publishTime>
     </File>
     <File Include="bin/roslyn/System.IO.Compression.dll">
-      <publishTime>11/05/2016 18:56:08</publishTime>
+      <publishTime>05/11/2016 18:56:08</publishTime>
     </File>
     <File Include="bin/roslyn/System.IO.Compression.ZipFile.dll">
-      <publishTime>11/05/2016 18:56:04</publishTime>
+      <publishTime>05/11/2016 18:56:04</publishTime>
     </File>
     <File Include="bin/roslyn/System.IO.FileSystem.dll">
-      <publishTime>11/05/2016 18:56:08</publishTime>
+      <publishTime>05/11/2016 18:56:08</publishTime>
     </File>
     <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
-      <publishTime>11/05/2016 18:56:08</publishTime>
+      <publishTime>05/11/2016 18:56:08</publishTime>
     </File>
     <File Include="bin/roslyn/System.Net.Http.dll">
-      <publishTime>11/05/2016 18:56:30</publishTime>
+      <publishTime>05/11/2016 18:56:30</publishTime>
     </File>
     <File Include="bin/roslyn/System.Net.Sockets.dll">
-      <publishTime>11/05/2016 18:56:34</publishTime>
+      <publishTime>05/11/2016 18:56:34</publishTime>
     </File>
     <File Include="bin/roslyn/System.Reflection.Metadata.dll">
       <publishTime>05/16/2018 03:29:44</publishTime>
     </File>
     <File Include="bin/roslyn/System.Runtime.InteropServices.RuntimeInformation.dll">
-      <publishTime>11/05/2016 18:57:00</publishTime>
+      <publishTime>05/11/2016 18:57:00</publishTime>
     </File>
     <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
-      <publishTime>11/05/2016 18:57:14</publishTime>
+      <publishTime>05/11/2016 18:57:14</publishTime>
     </File>
     <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
-      <publishTime>11/05/2016 18:57:08</publishTime>
+      <publishTime>05/11/2016 18:57:08</publishTime>
     </File>
     <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
-      <publishTime>11/05/2016 18:57:18</publishTime>
+      <publishTime>05/11/2016 18:57:18</publishTime>
     </File>
     <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
-      <publishTime>11/05/2016 18:57:18</publishTime>
+      <publishTime>05/11/2016 18:57:18</publishTime>
     </File>
     <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
-      <publishTime>11/05/2016 18:57:20</publishTime>
+      <publishTime>05/11/2016 18:57:20</publishTime>
     </File>
     <File Include="bin/roslyn/System.Threading.Tasks.Extensions.dll">
-      <publishTime>11/05/2016 18:57:24</publishTime>
+      <publishTime>05/11/2016 18:57:24</publishTime>
     </File>
     <File Include="bin/roslyn/System.ValueTuple.dll">
-      <publishTime>11/05/2016 18:57:30</publishTime>
+      <publishTime>05/11/2016 18:57:30</publishTime>
     </File>
     <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
-      <publishTime>11/05/2016 18:57:36</publishTime>
+      <publishTime>05/11/2016 18:57:36</publishTime>
     </File>
     <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
-      <publishTime>11/05/2016 18:57:34</publishTime>
+      <publishTime>05/11/2016 18:57:34</publishTime>
     </File>
     <File Include="bin/roslyn/System.Xml.XPath.dll">
-      <publishTime>11/05/2016 18:57:40</publishTime>
+      <publishTime>05/11/2016 18:57:40</publishTime>
     </File>
     <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
-      <publishTime>11/05/2016 18:57:34</publishTime>
+      <publishTime>05/11/2016 18:57:34</publishTime>
     </File>
     <File Include="bin/roslyn/vbc.exe">
       <publishTime>08/08/2018 05:38:48</publishTime>
@@ -2317,28 +2338,37 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/23/2021 22:56:15</publishTime>
     </File>
     <File Include="Views/Home/Create.cshtml">
-      <publishTime>02/25/2021 18:45:39</publishTime>
+      <publishTime>01/03/2021 11:40:47</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>02/23/2021 17:43:37</publishTime>
+      <publishTime>02/03/2021 22:41:15</publishTime>
     </File>
     <File Include="Views/Home/Print.cshtml">
-      <publishTime>02/25/2021 16:14:36</publishTime>
+      <publishTime>03/09/2021 16:32:43</publishTime>
+    </File>
+    <File Include="Views/Product/Create.cshtml">
+      <publishTime>02/03/2021 23:04:39</publishTime>
+    </File>
+    <File Include="Views/Product/Detail.cshtml">
+      <publishTime>02/03/2021 22:52:11</publishTime>
+    </File>
+    <File Include="Views/Product/Index.cshtml">
+      <publishTime>02/03/2021 23:01:45</publishTime>
     </File>
     <File Include="Views/Shared/_footer.cshtml">
       <publishTime>02/23/2021 15:44:37</publishTime>
     </File>
     <File Include="Views/Shared/_header.cshtml">
-      <publishTime>02/23/2021 16:09:10</publishTime>
+      <publishTime>02/03/2021 23:04:23</publishTime>
     </File>
     <File Include="Views/web.config">
       <publishTime>02/29/2020 09:04:39</publishTime>
     </File>
     <File Include="Views/_LayoutPage.cshtml">
-      <publishTime>02/23/2021 15:57:23</publishTime>
+      <publishTime>02/03/2021 23:08:03</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>02/25/2021 19:22:58</publishTime>
+      <publishTime>03/09/2021 17:25:40</publishTime>
     </File>
   </ItemGroup>
 </Project>

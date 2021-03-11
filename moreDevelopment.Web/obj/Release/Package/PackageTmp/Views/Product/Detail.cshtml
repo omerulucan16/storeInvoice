@@ -1,0 +1,42 @@
+﻿@model moreDevelopment.ViewModel.productsViewModel
+@{
+    ViewBag.Title = "Detail";
+    Layout = "~/Views/_LayoutPage.cshtml";
+}
+
+<div class="row">
+    <div class="col-sm-12">
+        <div class="page-title-box">
+
+            <h4 class="page-title">@Model.Name detayı</h4>
+        </div>
+    </div>
+</div>
+@using (Html.BeginForm("Detail", "Product", FormMethod.Post, new { @class = "card-box" }))
+{
+    <div class="row">
+        <div class="col-12">
+
+            <div class="form-row">
+                <div class="form-group col-md-4">
+                    <label class="col-form-label">Ürün Adı</label>
+                    @Html.TextBoxFor(m => m.Name, new { @class = "form-control" })
+
+                </div>
+                <div class="form-group col-md-4">
+                    <label class="col-form-label">Tedarikçi Kodu</label>
+                    @Html.TextBoxFor(m => m.SupplierCode, new { @class = "form-control" })
+                </div>
+                <div class="form-group col-md-4">
+                    <label class="col-form-label">Fiyat</label>
+                    @Html.TextBoxFor(m => m.price, new { @class = "form-control" })
+                </div>
+            </div>
+           
+        </div>
+        <button class="btn btn-success" type="submit">Güncelle</button>
+
+    </div>
+}
+
+

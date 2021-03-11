@@ -33,7 +33,7 @@ $.ajax({
                 lookup: productsArray,
                 lookupFilter: function (suggestion, originalQuery, queryLowerCase) {
                  
-                    if (suggestion.value == originalQuery || suggestion.value.indexOf(originalQuery) != -1)
+                    if (suggestion.value.toLocaleLowerCase() == queryLowerCase || suggestion.value.toLocaleLowerCase().indexOf(queryLowerCase) != -1)
                         return true;
                     else
                         return false;

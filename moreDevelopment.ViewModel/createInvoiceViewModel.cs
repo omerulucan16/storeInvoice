@@ -15,7 +15,7 @@ namespace moreDevelopment.ViewModel
         public string buyerAdress { get; set; }
         public decimal price { get; set; }
         public int taxRate { get; set; } = 18;
-        public int taxRate2 { get; set; } = 16;
+        public int taxRate2 { get; set; } 
         public decimal taxPrice { get; set; }
         public decimal taxPrice2 { get; set; }
         public decimal grandTotal { get; set; }

@@ -12,3 +12,17 @@ D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.ViewModel\bin\Release\
 D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.ViewModel\obj\Release\moreDevelopment.ViewModel.csproj.CopyComplete
 D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.ViewModel\obj\Release\moreDevelopment.ViewModel.dll
 D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.ViewModel\obj\Release\moreDevelopment.ViewModel.pdb
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.ViewModel\bin\Release\moreDevelopment.ViewModel.dll
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.ViewModel\bin\Release\moreDevelopment.ViewModel.pdb
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.ViewModel\bin\Release\moreDevelopment.Data.dll
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.ViewModel\bin\Release\MySql.Data.Entity.EF6.dll
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.ViewModel\bin\Release\EntityFramework.dll
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.ViewModel\bin\Release\MySql.Data.dll
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.ViewModel\bin\Release\moreDevelopment.Data.pdb
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.ViewModel\bin\Release\moreDevelopment.Data.dll.config
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.ViewModel\bin\Release\EntityFramework.xml
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.ViewModel\obj\Release\moreDevelopment.ViewModel.csprojAssemblyReference.cache
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.ViewModel\obj\Release\moreDevelopment.ViewModel.csproj.CoreCompileInputs.cache
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.ViewModel\obj\Release\moreDevelopment.ViewModel.csproj.CopyComplete
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.ViewModel\obj\Release\moreDevelopment.ViewModel.dll
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.ViewModel\obj\Release\moreDevelopment.ViewModel.pdb

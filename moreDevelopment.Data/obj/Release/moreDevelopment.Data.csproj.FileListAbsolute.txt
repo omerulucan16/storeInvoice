@@ -16,3 +16,22 @@ D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Data\bin\Release\Entit
 D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Data\obj\Release\moreDevelopment.Data.csproj.CopyComplete
 D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Data\obj\Release\moreDevelopment.Data.dll
 D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Data\obj\Release\moreDevelopment.Data.pdb
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Data\bin\Release\moreDevelopment.Data.dll.config
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Data\bin\Release\moreDevelopment.Data.dll
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Data\bin\Release\moreDevelopment.Data.pdb
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Data\bin\Release\EntityFramework.dll
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Data\bin\Release\EntityFramework.SqlServer.dll
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Data\bin\Release\MySql.Data.dll
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Data\bin\Release\MySql.Data.Entity.EF6.dll
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Data\bin\Release\EntityFramework.xml
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Data\bin\Release\EntityFramework.SqlServer.xml
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Data\obj\Release\moreDevelopment.Data.csprojAssemblyReference.cache
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Data\obj\Release\moreDevelopment.Data.Migrations.mgInvoiceFirst.resources
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Data\obj\Release\moreDevelopment.Data.Migrations.mgInvoiceProducts.resources
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Data\obj\Release\moreDevelopment.Data.Migrations.mgProductPrices.resources
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Data\obj\Release\moreDevelopment.Data.Migrations.mgTaxRate.resources
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Data\obj\Release\moreDevelopment.Data.csproj.GenerateResource.cache
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Data\obj\Release\moreDevelopment.Data.csproj.CoreCompileInputs.cache
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Data\obj\Release\moreDevelopment.Data.csproj.CopyComplete
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Data\obj\Release\moreDevelopment.Data.dll
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Data\obj\Release\moreDevelopment.Data.pdb

@@ -70,6 +70,218 @@
             padding-top:30px;
             font-size:14px;
         }
+
+
+
+    .invoice-2 {
+        float: left;
+        width: 340px;
+        height: 567px;
+        margin-left: 5px;
+    }
+
+        .invoice-2 .person-name {
+            width: 130px;
+            height: 26px;
+            font-size: 11px;
+        }
+
+        .invoice-2 .person-adress {
+            height: 55px;
+            width: 140px;
+            font-size: 11px;
+        }
+
+        .invoice-2 .createDate {
+            margin-top: 68px;
+            margin-left: 68px;
+            width: 65px;
+            height: 13px;
+            font-size: 13px;
+        }
+
+        .invoice-2 .sendDate {
+            width: 65px;
+            height: 13px;
+            margin-left: 68px;
+            font-size: 13px;
+        }
+
+        .invoice-2 .products {
+            padding-top: 50px;
+            height: 400px;
+            margin-right: 5px;
+            font-size: 12px;
+        }
+
+            .invoice-2 .products .productName {
+                text-align: left;
+                width: 255px;
+            }
+
+            .invoice-2 .products .productCount {
+                text-align: left;
+                width: 15px;
+            }
+
+            .invoice-2 .products .productPrice {
+                text-align: left;
+                width: 50px;
+            }
+
+        .invoice-2 .productTotals {
+            padding-top: 30px;
+            margin-left: 180px;
+            font-size: 13px;
+        }
+
+        .invoice-2 .productTotalText {
+            margin-left: 30px;
+            padding-top: 30px;
+            font-size: 14px;
+        }
+
+
+
+
+    .invoice-3 {
+        float: left;
+        width: 340px;
+        height: 567px;
+        margin-left: 5px;
+    }
+
+        .invoice-3 .person-name {
+            width: 130px;
+            height: 26px;
+            font-size: 11px;
+        }
+
+        .invoice-3 .person-adress {
+            height: 55px;
+            width: 140px;
+            font-size: 11px;
+        }
+
+        .invoice-3 .createDate {
+            margin-top: 68px;
+            margin-left: 68px;
+            width: 65px;
+            height: 13px;
+            font-size: 13px;
+        }
+
+        .invoice-3 .sendDate {
+            width: 65px;
+            height: 13px;
+            margin-left: 68px;
+            font-size: 13px;
+        }
+
+        .invoice-3 .products {
+            padding-top: 50px;
+            height: 400px;
+            margin-right: 5px;
+            font-size: 12px;
+        }
+
+            .invoice-3 .products .productName {
+                text-align: left;
+                width: 255px;
+            }
+
+            .invoice-3 .products .productCount {
+                text-align: left;
+                width: 15px;
+            }
+
+            .invoice-3 .products .productPrice {
+                text-align: left;
+                width: 50px;
+            }
+
+        .invoice-3 .productTotals {
+            padding-top: 30px;
+            margin-left: 180px;
+            font-size: 13px;
+        }
+
+        .invoice-3 .productTotalText {
+            margin-left: 30px;
+            padding-top: 30px;
+            font-size: 14px;
+        }
+
+
+
+
+    .invoice-4 {
+        float: left;
+        width: 340px;
+        height: 567px;
+        margin-left: 5px;
+    }
+
+        .invoice-4 .person-name {
+            width: 130px;
+            height: 26px;
+            font-size: 11px;
+        }
+
+        .invoice-4 .person-adress {
+            height: 55px;
+            width: 140px;
+            font-size: 11px;
+        }
+
+        .invoice-4 .createDate {
+            margin-top: 68px;
+            margin-left: 68px;
+            width: 65px;
+            height: 13px;
+            font-size: 13px;
+        }
+
+        .invoice-4 .sendDate {
+            width: 65px;
+            height: 13px;
+            margin-left: 68px;
+            font-size: 13px;
+        }
+
+        .invoice-4 .products {
+            padding-top: 50px;
+            height: 400px;
+            margin-right: 5px;
+            font-size: 12px;
+        }
+
+            .invoice-4 .products .productName {
+                text-align: left;
+                width: 255px;
+            }
+
+            .invoice-4 .products .productCount {
+                text-align: left;
+                width: 15px;
+            }
+
+            .invoice-4 .products .productPrice {
+                text-align: left;
+                width: 50px;
+            }
+
+        .invoice-4 .productTotals {
+            padding-top: 30px;
+            margin-left: 180px;
+            font-size: 13px;
+        }
+
+        .invoice-4 .productTotalText {
+            margin-left: 30px;
+            padding-top: 30px;
+            font-size: 14px;
+        }
 </style>
 <html>
 <head>
@@ -84,54 +296,203 @@
     <div class="container">
 
         <div class="invoices">
-            @for (int i = 0; i < 4; i++)
-            {
-                <div class="invoice-1">
-                    <div class="person-name">
-                        @Model.buyerName @Model.buyerSurname
-                    </div>
-                    <div class="person-adress">
-                        @Model.buyerAdress
-                    </div>
-                    <div class="createDate">
-                        @(Model.createDate.Day).@(Model.createDate.Month).@(Model.createDate.Year)
-                    </div>
-                    <div class="sendDate">
-                        @(Model.createDate.Day).@(Model.createDate.Month).@(Model.createDate.Year)
-                    </div>
-                    <div class="products">
-                        <table>
-                            <tr>
-                                <th class="productName"></th>
-                                <th class="productCount"></th>
-                                <th class="productPrice"></th>
-                            </tr>
-                            @foreach (var item in Model.productList.productList)
-                            {
-                                <tr>
-                                    <td>@item.Name</td>
-                                    <td class="text-centered">@item.count</td>
-                                    <td class="text-centered">@item.price.ToString("#.##")</td>
-                                </tr>
-
-                            }
-
-                        </table>
-                    </div>
-                    <div class="productTotals">
-                        <div class="total">Toplam : @Model.price</div>
-                        <div class="tax">KDV %@Model.taxRate : @Model.taxPrice.ToString("#.##")</div>
-                        @if (Model.taxRate2 != 0)
-                        {
-                            <div class="tax">KDV %@Model.taxRate2 : @Model.taxPrice2.ToString("#.##")</div>
-                        }
-                        <div class="total">Genel Toplam : @Model.grandTotal.ToString("#.##")</div>
-                    </div>
-                    <div class="productTotalText">
-                        <div>@Model.totalPriceText</div>
-                    </div>
+            <div class="invoice-1">
+                <div class="person-name">
+                    @Model.buyerName @Model.buyerSurname
                 </div>
-            }
+                <div class="person-adress">
+                    @Model.buyerAdress
+                </div>
+                <div class="createDate">
+                    @(Model.createDate.Day).@(Model.createDate.Month).@(Model.createDate.Year)
+                </div>
+                <div class="sendDate">
+                    @(Model.createDate.Day).@(Model.createDate.Month).@(Model.createDate.Year)
+                </div>
+                <div class="products">
+                    <table>
+                        <tr>
+                            <th class="productName"></th>
+                            <th class="productCount"></th>
+                            <th class="productPrice"></th>
+                        </tr>
+                        @foreach (var item in Model.productList.productList)
+                        {
+                            <tr>
+                                <td>@item.Name</td>
+                                <td class="text-centered">@item.count</td>
+                                <td class="text-centered">@item.price.ToString("#.##")</td>
+                            </tr>
+
+                        }
+
+                    </table>
+                </div>
+                <div class="productTotals">
+                    <div class="total">Toplam : @Model.price</div>
+                    <div class="tax">KDV %@Model.taxRate : @Model.taxPrice.ToString("#.##")</div>
+                    @if (Model.taxRate2 != 0)
+                    {
+                        <div class="tax">KDV %@Model.taxRate2 : @Model.taxPrice2.ToString("#.##")</div>
+                    }
+                    <div class="total">Genel Toplam : @Model.grandTotal.ToString("#.##")</div>
+                </div>
+                <div class="productTotalText">
+                    <div>@Model.totalPriceText</div>
+                </div>
+            </div>
+
+
+
+            @*2. Fatura*@
+
+            <div class="invoice-1">
+                <div class="person-name">
+                    @Model.buyerName @Model.buyerSurname
+                </div>
+                <div class="person-adress">
+                    @Model.buyerAdress
+                </div>
+                <div class="createDate">
+                    @(Model.createDate.Day).@(Model.createDate.Month).@(Model.createDate.Year)
+                </div>
+                <div class="sendDate">
+                    @(Model.createDate.Day).@(Model.createDate.Month).@(Model.createDate.Year)
+                </div>
+                <div class="products">
+                    <table>
+                        <tr>
+                            <th class="productName"></th>
+                            <th class="productCount"></th>
+                            <th class="productPrice"></th>
+                        </tr>
+                        @foreach (var item in Model.productList.productList)
+                        {
+                            <tr>
+                                <td>@item.Name</td>
+                                <td class="text-centered">@item.count</td>
+                                <td class="text-centered">@item.price.ToString("#.##")</td>
+                            </tr>
+
+                        }
+
+                    </table>
+                </div>
+                <div class="productTotals">
+                    <div class="total">Toplam : @Model.price</div>
+                    <div class="tax">KDV %@Model.taxRate : @Model.taxPrice.ToString("#.##")</div>
+                    @if (Model.taxRate2 != 0)
+                    {
+                        <div class="tax">KDV %@Model.taxRate2 : @Model.taxPrice2.ToString("#.##")</div>
+                    }
+                    <div class="total">Genel Toplam : @Model.grandTotal.ToString("#.##")</div>
+                </div>
+                <div class="productTotalText">
+                    <div>@Model.totalPriceText</div>
+                </div>
+            </div>
+
+            @*3. Fatura*@
+
+
+            <div class="invoice-1">
+                <div class="person-name">
+                    @Model.buyerName @Model.buyerSurname
+                </div>
+                <div class="person-adress">
+                    @Model.buyerAdress
+                </div>
+                <div class="createDate">
+                    @(Model.createDate.Day).@(Model.createDate.Month).@(Model.createDate.Year)
+                </div>
+                <div class="sendDate">
+                    @(Model.createDate.Day).@(Model.createDate.Month).@(Model.createDate.Year)
+                </div>
+                <div class="products">
+                    <table>
+                        <tr>
+                            <th class="productName"></th>
+                            <th class="productCount"></th>
+                            <th class="productPrice"></th>
+                        </tr>
+                        @foreach (var item in Model.productList.productList)
+                        {
+                            <tr>
+                                <td>@item.Name</td>
+                                <td class="text-centered">@item.count</td>
+                                <td class="text-centered">@item.price.ToString("#.##")</td>
+                            </tr>
+
+                        }
+
+                    </table>
+                </div>
+                <div class="productTotals">
+                    <div class="total">Toplam : @Model.price</div>
+                    <div class="tax">KDV %@Model.taxRate : @Model.taxPrice.ToString("#.##")</div>
+                    @if (Model.taxRate2 != 0)
+                    {
+                        <div class="tax">KDV %@Model.taxRate2 : @Model.taxPrice2.ToString("#.##")</div>
+                    }
+                    <div class="total">Genel Toplam : @Model.grandTotal.ToString("#.##")</div>
+                </div>
+                <div class="productTotalText">
+                    <div>@Model.totalPriceText</div>
+                </div>
+            </div>
+
+
+
+
+
+            @*4. Fatura*@
+
+            <div class="invoice-1">
+                <div class="person-name">
+                    @Model.buyerName @Model.buyerSurname
+                </div>
+                <div class="person-adress">
+                    @Model.buyerAdress
+                </div>
+                <div class="createDate">
+                    @(Model.createDate.Day).@(Model.createDate.Month).@(Model.createDate.Year)
+                </div>
+                <div class="sendDate">
+                    @(Model.createDate.Day).@(Model.createDate.Month).@(Model.createDate.Year)
+                </div>
+                <div class="products">
+                    <table>
+                        <tr>
+                            <th class="productName"></th>
+                            <th class="productCount"></th>
+                            <th class="productPrice"></th>
+                        </tr>
+                        @foreach (var item in Model.productList.productList)
+                        {
+                            <tr>
+                                <td>@item.Name</td>
+                                <td class="text-centered">@item.count</td>
+                                <td class="text-centered">@item.price.ToString("#.##")</td>
+                            </tr>
+
+                        }
+
+                    </table>
+                </div>
+                <div class="productTotals">
+                    <div class="total">Toplam : @Model.price</div>
+                    <div class="tax">KDV %@Model.taxRate : @Model.taxPrice.ToString("#.##")</div>
+                    @if (Model.taxRate2 != 0)
+                    {
+                        <div class="tax">KDV %@Model.taxRate2 : @Model.taxPrice2.ToString("#.##")</div>
+                    }
+                    <div class="total">Genel Toplam : @Model.grandTotal.ToString("#.##")</div>
+                </div>
+                <div class="productTotalText">
+                    <div>@Model.totalPriceText</div>
+                </div>
+            </div>
+
 
 
         </div>

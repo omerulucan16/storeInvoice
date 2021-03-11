@@ -39,7 +39,6 @@ D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Data\bin\Debug\MySql.Data.dll
 D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Data\bin\Debug\MySql.Data.Entity.EF6.dll
 D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Data\bin\Debug\EntityFramework.xml
 D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Data\bin\Debug\EntityFramework.SqlServer.xml
-D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Data\obj\Debug\moreDevelopment.Data.csprojAssemblyReference.cache
 D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Data\obj\Debug\moreDevelopment.Data.Migrations.mgInvoiceFirst.resources
 D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Data\obj\Debug\moreDevelopment.Data.Migrations.mgInvoiceProducts.resources
 D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Data\obj\Debug\moreDevelopment.Data.Migrations.mgProductPrices.resources

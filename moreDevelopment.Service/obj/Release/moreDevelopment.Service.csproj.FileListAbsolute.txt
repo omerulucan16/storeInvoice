@@ -20,3 +20,25 @@ D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Service\bin\Release\Sy
 D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Service\obj\Release\moreDevelopment.Service.csproj.CopyComplete
 D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Service\obj\Release\moreDevelopment.Service.dll
 D:\yedek\Kuafor Store\moreDevelopment.Web\moreDevelopment.Service\obj\Release\moreDevelopment.Service.pdb
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Service\bin\Release\moreDevelopment.Service.dll.config
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Service\bin\Release\moreDevelopment.Service.dll
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Service\bin\Release\moreDevelopment.Service.pdb
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Service\bin\Release\AutoMapper.dll
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Service\bin\Release\EntityFramework.dll
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Service\bin\Release\EntityFramework.SqlServer.dll
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Service\bin\Release\moreDevelopment.Data.dll
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Service\bin\Release\moreDevelopment.ViewModel.dll
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Service\bin\Release\System.ValueTuple.dll
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Service\bin\Release\moreDevelopment.Data.pdb
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Service\bin\Release\moreDevelopment.Data.dll.config
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Service\bin\Release\moreDevelopment.ViewModel.pdb
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Service\bin\Release\AutoMapper.pdb
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Service\bin\Release\AutoMapper.xml
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Service\bin\Release\EntityFramework.xml
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Service\bin\Release\EntityFramework.SqlServer.xml
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Service\bin\Release\System.ValueTuple.xml
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Service\obj\Release\moreDevelopment.Service.csprojAssemblyReference.cache
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Service\obj\Release\moreDevelopment.Service.csproj.CoreCompileInputs.cache
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Service\obj\Release\moreDevelopment.Service.csproj.CopyComplete
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Service\obj\Release\moreDevelopment.Service.dll
+D:\yedek\dotnetgit\storeInvoice\moreDevelopment.Service\obj\Release\moreDevelopment.Service.pdb

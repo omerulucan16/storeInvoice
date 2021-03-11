@@ -113,6 +113,7 @@
         var id = "";
         debugger;
         productName = document.getElementById("autocomplete-ajax").value;
+        var taxRate = document.getElementById("taxRate").value;
         filterResult = ownedProducts.filter(f => f.Name === productName);
         if (filterResult.length === 1) {
             productName = filterResult[0].Name;
@@ -121,13 +122,15 @@
         }
 
         if (productName.length>2) {
-            input = jQuery('<div class="form-group col-md-8"  id="product_' + counter + '_name" > <label class="col-form-label">Ürün Adı</label>' +
+            input = jQuery('<div class="form-group col-md-9"  id="product_' + counter + '_name" > <label class="col-form-label">Ürün Adı</label>' +
                 '<input  name="productList.productList[' + counter + '].id" value="' + productCode + '" type="hidden" class="form-control" >' +
                 '<input id="productList_productList[' + counter + ']_name" name = "productList.productList[' + counter + '].Name"  value="' + productName + '" class= "form-control" >' +
-                '</div > ' + '<div class="form-group col-md-2" id="product_' + counter + '_price"> <label class="col-form-label">Ürün Fiyatı</label>' +
+                '</div > ' + '<div class="form-group col-md-1" id="product_' + counter + '_price"> <label class="col-form-label">Ürün Fiyatı</label>' +
                 '<input id="productList_productList[' + counter + ']_Price" onChange="calculatePrices()" name="productList.productList[' + counter + '].Price" value="' + productPrice + '" class="form-control" >' +
-                '</div > ' + '<div class="form-group col-md-2" id="product_' + counter + '_count"> <label class="col-form-label">Ürün Adedi</label>' +
+                '</div > ' + '<div class="form-group col-md-1" id="product_' + counter + '_count"> <label class="col-form-label">Ürün Adedi</label>' +
                 '<input id="productList_productList[' + counter + ']_Count" onChange="calculatePrices()" name="productList.productList[' + counter + '].Count" value="' + productCount + '" class="form-control" >' +
+                '</div > ' + '<div class="form-group col-md-1" id="product_' + counter + '_count"> <label class="col-form-label">Ürün KDV </label>' +
+                '<input id="productList_productList[' + counter + ']_TaxRate" onChange="calculatePrices()" name="productList.productList[' + counter + '].TaxRate" value="' + taxRate + '" class="form-control" >' +
                 '</div > '
             );
             jQuery('#selectedProducts').append(input);
@@ -160,12 +163,16 @@
             debugger;
             var itemText = "productList_productList[" + i + "]";
             var itemPrice = document.getElementById(itemText + "_Price").value.replace(",", ".");
+            var itemTax = document.getElementById(itemText + "_TaxRate").value.replace(",", ".");
             itemPrice = Number(itemPrice);
-            var itemCount = Number(document.getElementById(itemText +"_Count").value);
+            var itemCount = Number(document.getElementById(itemText + "_Count").value);
+            var itemTotalPrice = itemPrice * itemCount;
+            totalPrice = totalPrice + itemTotalPrice;
+            totalKDV = totalKDV+(itemTotalPrice * itemTax) / 100;
             document.getElementById(itemText + "_Price").value = document.getElementById(itemText + "_Price").value.replace(".", ",");
-            totalPrice = totalPrice + (itemPrice * itemCount);
+           
         }
-        totalKDV = (totalPrice * taxRate) / 100;
+        //totalKDV = (totalPrice * taxRate) / 100;
         $('#price').val(totalPrice.toString().replace(".", ","));
         $('#taxPrice').val(totalKDV.toString().replace(".", ","));
 

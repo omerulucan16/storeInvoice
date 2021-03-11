@@ -1,4 +1,4 @@
-﻿@model moreDevelopment.ViewModel.invoiceListViewModel
+﻿@model moreDevelopment.ViewModel.productsListViewModel
 @{
     Layout = "~/Views/_LayoutPage.cshtml";
 }
@@ -6,40 +6,37 @@
 <div class="row">
     <div class="col-sm-12">
         <div class="page-title-box">
-           
-            <h4 class="page-title">Faturalar</h4>
+
+            <h4 class="page-title">Ürünlerimiz</h4>
         </div>
     </div>
 </div>
 <div class="row">
     <div class="col-12">
         <div class="card-box table-responsive">
-            
+
 
             <table id="datatable-buttons" class="table table-striped table-bordered dt-responsive nowrap" style="border-collapse: collapse; border-spacing: 0; width: 100%;">
                 <thead>
                     <tr>
-                        <th>Fatura No</th>
-                        <th>Müşteri Ad Soyad</th>
-                        <th>Fatura Tarihi</th>
+                        <th>Ürün No</th>
+                        <th>Ürün Adı</th>
+                       
                         <th>Fiyat</th>
-                        <th>Kdv</th>
-                        <th>Toplam Fiyat</th>
+                        <th></th>
                     </tr>
                 </thead>
 
 
                 <tbody>
-                    @foreach (var item in Model.invoiceList)
+                    @foreach (var item in Model.productList)
                     {
                         <tr>
-                            <td>@item.invoiceNo</td>
-                            <td>@item.buyerName @item.buyerSurname</td>
-                            <td>@item.createDate.ToShortDateString()</td>
+                            <td>@item.SupplierCode</td>
+                            <td>@item.Name </td>
                             <td>@item.price</td>
-                            <td>@item.taxPrice</td>
-                            <td>@item.grandTotal</td>
-                            
+                            <td><a href="~/urun-detay/@item.id">Ürün Detay</a></td>
+
                         </tr>
                     }
 
